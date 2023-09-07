@@ -12,8 +12,8 @@ $current_day = date('l');
 $current_utc_time = gmdate('Y-m-d\TH:i:s\Z', time());
 
 // Define GitHub repository and file URLs
-$github_file_url = 'https://github.com/username/repo/blob/main/file_name.ext';
-$github_repo_url = 'https://github.com/username/repo';
+$github_file_url = 'https://github.com/rahmanakorede442/hng_api_one/blob/master/api.php';
+$github_repo_url = 'https://github.com/rahmanakorede442/hng_api_one';
 
 // Create the response array
 $response = [
