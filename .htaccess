@@ -1,9 +1,9 @@
 RewriteEngine On
 
-# Redirect requests to add the .php extension internally
+# Redirect requests to add the .php extension internally.
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^\.]+)/?$ $1.php [L]
 
-# Redirect requests without the .php extension to the extensionless URL
+# Redirect requests without the .php extension to the extension less URL.
 RewriteCond %{THE_REQUEST} ^[A-Z]+\s/([^.]+)\.php [NC]
 RewriteRule ^ %1 [R=301,L]
